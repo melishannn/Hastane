@@ -24,9 +24,13 @@
           <div class="banner">
               <img src="img/banner.jpg" alt="">
           </div>
-            <div class="online">Online Randevu</div>
-            <div class="online">Labaratuvar Sonuçları</div>
-            <div class="online">Hasta Hakları</div>
+            <div class="online renk1">Online Randevu</div>
+            <div class="online renk2">Labaratuvar Sonuçları</div>
+            <div class="online renk3">Hasta Hakları</div>
+
+            <div class="temizle">
+
+            </div>
 
         </section>
 
@@ -40,26 +44,50 @@
             </div>
             <div class="content">
                     <h2>Biz kimiz</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aut deleniti, velit neque, accusantium soluta alias error reprehenderit pariatur veniam, eum unde commodi tempora sint explicabo molestias nulla dignissimos voluptas?</p>
+                    <p>  Lorem ipsum dolor 
+                         sit amet consectetur
+                         adipisicing elit. Magni 
+                         aut deleniti, velit neque, 
+                         accusantium soluta alias
+                         error reprehenderit pariatur
+                         veniam, eum unde commodi 
+                         tempora sint explicabo
+                         molestias nulla 
+                         dignissimos voluptas?
+                    </p>
             </div>
+            <div class="temizle"></div>
+
             <!--aynı satır üzerinde 4 tane birbirlerine benzer 4 columns olduğu için aynı div class'ı içine aldık-->
             <div class="aciklamalar">
-                <h3>Çalışmalarımız</h3>
+
+                <h3>Çalışmalarımız
+
+                </h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime tempore vitae nam aspernatur, quae praesentium, harum sapiente, perferendis quis eligendi. Dolores illum provident natus enim quo ab pariatur modi?
                 </p>
             </div>
             <div class="aciklamalar">
-                <h3>Hedefimiz</h3>
+
+                <h3>Hedefimiz
+
+                </h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime tempore vitae nam aspernatur, quae praesentium, harum sapiente, perferendis quis eligendi. Dolores illum provident natus enim quo ab pariatur modi?
                 </p>
             </div>
             <div class="aciklamalar">
-                <h3>Misyonumuz</h3>
+
+                <h3>Misyonumuz
+
+                </h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime tempore vitae nam aspernatur, quae praesentium, harum sapiente, perferendis quis eligendi. Dolores illum provident natus enim quo ab pariatur modi?
                 </p>
             </div>
             <div class="aciklamalar">
-                <h3>Vizyonumuz</h3>
+
+                <h3>Vizyonumuz
+
+                </h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime tempore vitae nam aspernatur, quae praesentium, harum sapiente, perferendis quis eligendi. Dolores illum provident natus enim quo ab pariatur modi?
                 </p>
             </div>
@@ -82,7 +110,7 @@
 
         <div class="dr">
             <img src="https://picsum.photos/id/235/200/300" alt="">
-            <h3>Asistan/h3>
+            <h3>Asistan</h3>
             <p>Osman aydın</p>
         </div>
 
@@ -121,24 +149,25 @@
             <h3>Başhekim</h3>
             <p>Osman aydın</p>
         </div>
-
+  
         </section>
-
+      <!--Floatı kullandığımız iççin bir sonraki kısım kayıyor bunu önelemek için temizle içindeki clear:both ile floatı durdurmuş oluyoruz -->
+  <div class="temizle"></div>
         <section id="iletisim">
               <h2>Bize Ulaşın</h2>   
 
               <h3>Online Hekimlik Hizmeti İçin Arayınız</h3> 
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam vel magnam rerum, quis quasi nemo quisquam? Adipisci perferendis repudiandae tempora voluptas beatae corporis. Laborum blanditiis molestias velit quas, sapiente esse.</p>
-              <p>Evde Sağlık Hattı</p>  
-              <p>(0215) 444 44 25</p>
+              <p class="saglik">Evde Sağlık Hattı</p>  
+              <p class="saglik" >(0215) 444 44 25</p>
 
 
               <div class="formTasarimi">
-                  <form action="">
-                      <input type="text" placeholder="Adınızı Giriniz">
-                      <input type="text" placeholder="E-mailinizi Giriniz"  >
-                      <textarea name="msj" id="" cols="30" rows="10"></textarea>
-                      <button type="submit">
+                  <form action=""> <!--inline elementler yan yana gelir bunu önelemk için br etiketini kullandık-->
+                      <input class="formGiris" type="text" placeholder="Adınızı Giriniz"> <br>
+                      <input class="formGiris" type="text" placeholder="E-mailinizi Giriniz"  > <br>
+                      <textarea  class="mesaj"name="msj" id="" cols="30" rows="10"></textarea> <br>
+                      <button class="button"type="submit">
                             Gönder
                       </button>
                     </form>
@@ -146,12 +175,13 @@
               
               <div class="harita">
                <!--Harita kısmındaki kodu google haritalrdaki adresin paylaş kısmındaki html kısmındaki koddur-->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.4976302293758!2d28.863854000000003!3d40.9924801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabb544764bc75%3A0xe61ddd57a1ba796!2zVC5DLiBTYcSfbMSxayBCYWthbmzEscSfxLEgxLBzdGFuYnVsIEJha8SxcmvDtnkgUHJvZi4gRHIuIE1hemhhciBPc21hbiBSdWggU2HEn2zEscSfxLEgdmUgU2luaXIgSGFzdGFsxLFrbGFyxLEgRcSfaXRpbSB2ZSBBcmHFn3TEsXJtYSBIYXN0YW5lc2k!5e0!3m2!1str!2str!4v1635640986827!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.4976302293758!2d28.863854000000003!3d40.9924801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabb544764bc75%3A0xe61ddd57a1ba796!2zVC5DLiBTYcSfbMSxayBCYWthbmzEscSfxLEgxLBzdGFuYnVsIEJha8SxcmvDtnkgUHJvZi4gRHIuIE1hemhhciBPc21hbiBSdWggU2HEn2zEscSfxLEgdmUgU2luaXIgSGFzdGFsxLFrbGFyxLEgRcSfaXRpbSB2ZSBBcmHFn3TEsXJtYSBIYXN0YW5lc2k!5e0!3m2!1str!2str!4v1635640986827!5m2!1str!2str" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
               </div>
          </section>
+         <div class="temizle"></div>
    </div>
 
-<footer>Web Sitemizin Tüm Hakları Saklıdır</footer>
+<footer>Web Sitemizin Tüm Hakları Saklıdır 2021</footer>
     
 </body>
 </html>

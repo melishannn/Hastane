@@ -31,3 +31,118 @@ nav a{
     width: 1140px;
     height: auto;  
 }
+
+.online{
+    float:left;
+    width: 380px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    color:#fff;
+    font-size: 1.3em;
+}
+.renk1{
+    background-color:#0694c9;
+}
+
+.renk2{
+    background-color:#0694c9;
+}
+.renk3{
+    background-color:#0694c9;
+}
+
+
+/*hakkımızda alanı*/
+
+/*float değerini bri önceki değerde kullandıysak clear ile floatı durduruyor */
+
+.temizle{
+    clear: both;
+}
+
+.left-img img{
+    width: 450px;
+    height: 275px;
+    float:left;
+}
+.content h2{
+    font-weight: bold;
+}
+.content p{
+    font-size: 1.1em;
+}
+.aciklamalar{
+    float: left;
+    width: 20%;
+    padding:2%;  
+}
+#kadromuz h2{ /*idler içindeki style değiştirmek içim # kullanılır*/
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.dr{
+    text-align: center; /* yazıları ortalamak için kullandık */
+    width: 32%; height: auto;
+    float: left;
+}
+/* görsel barındıran yer için ayriyetten ayrı bir style kısmı oluşturun */
+.dr img{
+    width: 150px;
+    height: auto;
+}
+#iletisim{
+    text-align: center;
+}
+#iletisim h2{
+    width:1000px;
+    padding: 20px;
+    text-align: center;
+    background-color: #215f75;
+    color:#fff;
+}
+.saglik{
+    font-size: 1.2em;
+}
+
+.formTasarimi{
+    width:40px;
+    float: left;
+}
+.harita{
+    width: 60%;
+    float: right;
+}
+.formGiris{
+    width: 350px;
+    height: 30px;
+    border: 1px solid #0694c9;
+    margin-bottom: 10px;
+}
+
+.mesaj{
+    width: 350px;
+    border: 1px solid #0694c9;
+    margin-bottom: 10px;
+}
+.button{
+    width: 350px;
+    height: 20px;
+    background-color:#0694c9 ;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    color:#fff;
+    font-size: 1.2em;
+    background-color:#0694c9 ;
+}
